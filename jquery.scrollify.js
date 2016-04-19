@@ -205,6 +205,7 @@
 				if(scrolled) {
 					manualScroll.calculateNearest();
 				}
+				scrolled = true;
 			},
 			handleScroll:function() {
 				if(disabled===true) {
